@@ -2,8 +2,18 @@
 
 namespace Calculator2
 {
+    /// <summary>
+    /// The Program class contains methods for simple math funtions.
+    /// It contains basic functions of Add, Subtract, Multiply and Divide doubles
+    /// </summary>
     public static class Program
     {
+        /// <summary>
+        /// The Main asks for user input for two doubles.
+        /// Asks user what mathematical operator they wish to use and calls that operators method.
+        /// All this is tied in while loop to give user multiple chances to work 
+        /// with different numbers and operators.
+        /// </summary>
         public static void Main()
         {
             while (true)
@@ -56,21 +66,52 @@ namespace Calculator2
                 Console.ReadLine();
             }
         }
+        /// <summary>
+        /// Takes in two parameters of double type and adds them to return the result in double.
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>
+        /// The sum of two  doubles
+        /// </returns>
         public static double Add(double firstNumber, double secondNumber)
         {
             return (firstNumber + secondNumber);
         }
-
+        /// <summary>
+        /// Takes in two parameters of double type and subtracts them to return the result in double.
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>
+        /// The difference of two doubles
+        /// </returns>
         public static double Subtract(double firstNumber, double secondNumber)
         {
             return (firstNumber - secondNumber);
         }
-
+        /// <summary>
+        /// Accepts two parameters of double type.
+        /// Multiply the first number by the second number to return the result in double.
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>
+        /// The product of two doubles
+        /// </returns>
         public static double Multiply(double firstNumber, double secondNumber)
         {
             return (firstNumber * secondNumber);
         }
-
+        /// <summary>
+        /// Accepts two parameters of double type.
+        /// Divides the first number by the second number to return the result in double.
+        /// </summary>
+        /// <param name="firstNumber"></param>
+        /// <param name="secondNumber"></param>
+        /// <returns>
+        /// The quotient of two doubles
+        /// </returns>
         public static double Divide(double firstNumber, double secondNumber)
         {
             return (firstNumber / secondNumber);

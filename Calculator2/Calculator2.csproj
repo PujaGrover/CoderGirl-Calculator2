@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Puja\Source\Repos\PujaGrover\CoderGirl-Calculator2\Calculator2\Calculator2.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
